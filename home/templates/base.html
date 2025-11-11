@@ -1,0 +1,163 @@
+{% block content %}
+    <h1>Product</h1>
+    <div class="product-container">
+        {% for pro in product %}
+        <div class="product-card">
+             <img src="{{ pro.Image }}" alt="{{ pro.title }}">
+            <h3>{{ pro.title }}</h3>
+            <p class="price">${{ pro.price }}</p>
+            <p>Category: {{ pro.category }}</p>
+            <p>Rating: {{ pro.rating }} ({{ pro.count }} reviews)</p>
+            <p>{{ pro.Description|truncatewords:20 }}</p>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
